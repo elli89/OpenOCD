@@ -129,6 +129,11 @@ static const struct nrf52_device_spec nrf52_known_devices_table[] = {
     .variant  = "QFAA",
     .build_code = "AA",
     .flash_size_kb  = 512,
+  },{
+    .hwid   = 0x00c7,
+    .variant  = "QFAA",
+    .build_code = "B0",
+    .flash_size_kb  = 512,
   },
 };
 
